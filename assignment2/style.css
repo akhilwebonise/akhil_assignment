@@ -17,18 +17,18 @@ nav {
   }
 nav ul{}
 nav ul li{display: inline-block;margin-left: 158px;margin-right: 63px;}
-.content{border: 1px solid;width: 960px;height: 500px;background-color: #FEFFD8;}
+.content{border: 1px solid;width: 960px;height: 100%;background-color: #FEFFD8;}
 .side_bar
 {
 float: left;
   border-right: 1px solid;
   width: 200px;
-  height: 500px;
+  height: 100%;
 }
 .main_area
 {
 	float: right;  
-    height: 486px;
+    height: 100%;
     width: 759px;
 }
 p
@@ -46,4 +46,26 @@ footer{
 	border: 1px solid;
 	border-top: 0;
 	height: 40px;
+}
+footer ul {
+  float: right;
+	margin-right: 41px;
+}
+footer ul li{
+  display: inline-block;
+  margin-right: 19px;
+}
+a:link, a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
 }

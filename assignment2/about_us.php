@@ -39,9 +39,8 @@
 	    				<a href="contact_us.php">Contact us</a>
 	    			</li>	
 	    		</ul>
-		</div>
+			</div>
 			<div class="main_area">
-				<img src="images/Acorn256.png"/>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
 				<ul>
 					<li>Lorem Ipsum as their default model text</li>
@@ -61,7 +60,7 @@
 		</div>
 		<footer>
          		CopyRight by @ akhil thakur 
-       		<ul>
+			<ul>
 	    		<li>
 	    			<a href="index.php">Home</a> 
 	    		</li>
@@ -72,7 +71,6 @@
 	    			<a href="contact_us.php">Contact us</a>
 	    		</li>	
 	    	</ul>
-
 		</footer>
 	</div>
 	</body>
