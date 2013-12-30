@@ -339,8 +339,9 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
 .slider-footer{
   background-color: #CDD8F4;
     border-radius: 7px;
-    height: 343px;
+    
     overflow: hidden;
+    padding-bottom: 28px;
     width: 960px;
 }
 .slider-footer ul{
@@ -388,8 +389,8 @@ background-repeat: repeat-x;
 }
 .footer-wrapper
 {
-     height: 523px;
-    margin: 28px auto;
+    
+    margin: 63px auto;
     padding-top: 32px;
     width: 960px;
 }
@@ -409,7 +410,7 @@ background-repeat: repeat-x;
 }
 .footer-wrapper ul li h3 span
 {
-    color: #ffffff;
+    color: #39393e;
 }
 .footer-wrapper img
 {
