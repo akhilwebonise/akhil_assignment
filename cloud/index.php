@@ -74,6 +74,7 @@
 			    				<h4>November 18 2012</h4>
 			    				<h3>Cloud Founddry integration for...</h3>
 			    				<h5>We are excited to announce a new version of micro...</h5>
+			    				<!-- <a href="">LEARN MORE</a> -->
 			    				<input type="button" name="Readmore" value="LEARN MORE">
 			    			</div>
 			    			<div class="clear"></div>

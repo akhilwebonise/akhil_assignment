@@ -32,13 +32,13 @@ html {
     color: #FF68FF;
     float: left;
     height: 25px;
-    margin: 5px 20px 9px 535px;
+    margin: 5px 20px 9px 517px;
     width: 220px;
 
 }
 .header-globle a
 {
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 	margin-top: 10px;
 	color: #FFFFFF;
     float: left;
@@ -82,31 +82,32 @@ html {
     background-repeat: no-repeat;
     display: inline-block;
     /*height: 37px;*/
-    padding:10px 30px; 
+    padding: 7px 37px; 
 }
 .nav-bar ul li a {
     display: block;
     line-height: 27px;
+    text-decoration: none;
 }
 .home {
-     height: 26px;
+     height: 31px;
 }
 .about  {
-      height: 21px;
+      height: 27px;
 }
 /*.home img{
      height: 34px;
 }*/
 .chapter{
-      height: 21px;
+       height: 27px;
 }
 .wiki
 {
-     height: 21px;
+      height: 27px;
 }
 .event
 {
-     height: 21px;
+      height: 27px;
 }
 .nav-bar ul li:last-child {
          background-image: none;
@@ -291,7 +292,7 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     width: 567px;
 }
 .right-content img {
-    height: 381px;
+    height: 404px;
     padding-left: 25px;
     padding-top: 8px;
     width: 566px;
@@ -310,18 +311,18 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     border-radius: 4px;
     float: right;
     height: 40px;
-    margin: 8px 27px 15px 133px;
+    margin: 0px 27px 15px 133px;
     width: 155px;
 }
 
 .chapbutton a{
-  color: rgb(255, 255, 255);
+ color: rgb(255, 255, 255);
 font-size: 0.8em;
 line-height: 40px;
-margin-left: 1px;
+
 text-align: start;
 text-decoration: inherit;
-padding: 13px 15px;
+padding: 13px 10px;
 }
 .right-content p{
     color: #666666;
@@ -426,7 +427,6 @@ background-repeat: repeat-x;
     width: 960px;
 }
 .footer-wrapper ul{
-
 }
 .footer-wrapper ul li {
     display: inline;
@@ -446,9 +446,9 @@ background-repeat: repeat-x;
 .footer-wrapper img
 {
      background-image: url("images/footer_icon.png");
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     height: 120px;
-    margin-left: 109px;
+    margin-left: 167px;
 }
 
 .last-icon ul
