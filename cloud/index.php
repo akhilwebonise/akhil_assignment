@@ -6,19 +6,20 @@
 	<body>
 		<div class="wrapper">
 			<div class="header-globle">
-				  <a href="">FAQ'S</a>
-				  <a href="">LOGIN</a>
+				 
 				  <input type="search" id="search" name="search" value="search" placeholder="search">
+				   <a href="">FAQ'S</a>
+				  <a href="">LOGIN</a>
 				  <div class="clear"></div>
 			</div>
 			<div class="logo"></div>
 			<div class="nav-bar">
 				<ul>
-					<li><a href=""><img src="images/home.png" align=""><span></span></a></li>
-					<li><a href=""><img src="images/about-us.png" align=""><span>ABOUT US</span></a></li>
-					<li><a href=""><img src="images/chapter.png"><span>CHAPTERS</span></a></li>
-					<li><a href=""><img src="images/events.png"><span>EVENTS</span></a></li>
-					<li><a href=""><img src="images/wiki.png"><span>WIKI</span></a></li>
+					<li class="home"><a href=""><img src="images/home.png" align=""><span></span></a></li>
+					<li class="about"><a href=""><img src="images/about-us.png" align=""><span>ABOUT US</span></a></li>
+					<li class="chapter"><a href=""><img src="images/chapter.png"><span>CHAPTERS</span></a></li>
+					<li class="event"><a href=""><img src="images/events.png"><span>EVENTS</span></a></li>
+					<li class="wiki"><a href=""><img src="images/wiki.png"><span>WIKI</span></a></li>
 				</ul>
 			</div>
 			<div class="slider">
@@ -40,8 +41,9 @@
 							<li class="next-button"><a href=""><span>next</span></a></li>
 						</ul>
 				</div>
+				<div class="clear"></div>
 			</div>
-			<div class="clear"></div>
+			
 			<div class="left-section">
 			    <div class="left-heading"></div>
 			    <div class="left-content">
@@ -96,14 +98,14 @@
 					<ul>
 						<!-- <li class="first-li"><img src="images/first-li.png"></li> -->
 						<li class="li">
-							<img src="images/events1.png">
+						<img src="images/events1.png">
 							<h3>Jakarta</h3>
 							<h4>Sep 13 2013</h4>
 							<span><b>Where :</b>Danvar(map)</span>
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and</h4>
 							<a href="">Read more</a>
 						</li>
-							<li class="li">
+						<li class="li">
 							<img src="images/events1.png">
 							<h3>Jakarta</h3>
 							<h4>Sep 13 2013</h4>
@@ -111,7 +113,7 @@
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and </h4>
 							<a href="">Read more</a>
 						</li>
-							<li class="li">
+						<li class="li">
 							<img src="images/events1.png">
 							<h3>Jakarta</h3>
 							<h4>Sep 13 2013</h4>
@@ -119,7 +121,7 @@
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and</h4>
 							<a href="">Read more</a>
 						</li>
-							<li class="li">
+						<li class="li">
 							<img src="images/events1.png">
 							<h3>Jakarta</h3>
 							<h4>Sep 13 2013</h4>
@@ -127,6 +129,7 @@
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and </h4>
 							<a href="">Read more</a>
 						</li>
+						<div class="clear"></div>
 						<!-- <li class="last-li"><img src="images/last-li.png"></li> -->
 					</ul>
 				</div>
@@ -136,7 +139,7 @@
 			<div class="footer-wrapper">
 				<ul>
 						<li>
-							<h3>Cloud foundry <a href="">About</a><span> / </span> <a href="">About</a><span> / </span>  <a href="">Partners</a> <span> / </span> <a href="">Events</a> <span> / </span> <a href="">Gallery</a> <span> / </span><a href="">Pricing </a> <span> / </span> <a href="">Jobs</a> <span> / </span> <a href="">Fourms</a> <span> / </span> <a href="">Get an Account</a></h3>
+							<h3>Cloud foundry <a href="">About</a><span> / </span>  <a href="">Partners</a> <span> / </span> <a href="">Events</a> <span> / </span> <a href="">Gallery</a> <span> / </span><a href="">Pricing </a> <span> / </span> <a href="">Jobs</a> <span> / </span> <a href="">Fourms</a> <span> / </span> <a href="">Get an Account</a></h3>
 						</li>
 				</ul>
 				<ul>
@@ -161,7 +164,7 @@
 				</ul>     		
 				<ul>
 					<li>
-				     		<h3>Dev center <a href="">Documentation</a> <span> / </span> <a href="">Get Started</a> / <a href="">Get Involved<a> <span> / </span> <a href="">Core Compatibility</a> <span> / </span><a href="">Pricing </a> <span> / </span><a href="">Jobs</a> <span> / </span> <a href="">Fourms</a> <span> / </span> <a href="">Get an Account</a></h3>
+				     		<h3>Dev center <a href="">Documentation</a> <span> / </span> <a href="">Get Started</a> <span> / </span>  <a href="">Get Involved<a> <span> / </span> <a href="">Core Compatibility</a> <span> / </span><a href="">Pricing </a> <span> / </span><a href="">Jobs</a> <span> / </span> <a href="">Fourms</a> <span> / </span> <a href="">Get an Account</a></h3>
 						</li>
 				</ul>	
 				<img src="images/footer_icon.png"> 

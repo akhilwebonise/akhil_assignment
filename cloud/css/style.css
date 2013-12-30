@@ -5,7 +5,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-body
+*
 {
 	margin: 0;
 	padding: 0;
@@ -21,29 +21,27 @@ body
     background-repeat: repeat-x;
     border-bottom: 1px solid #FFFFFF;
     height: 39px;
-    /*position: relative;
-	z-index: 9999;*/
+    position: relative;
+	z-index: 9999;
 }
 .header-globle input 
 {
 	background-image: url("../images/search-bg.png");
-    color: #FF68FF;
-    float: right;
-    height: 25px;
-    margin-bottom: 9px;
-    /*margin-left: 590px;*/
-    margin-top: 5px;
-    border: 1px solid #1c252c;
+    border: 1px solid #1C252C;
     border-radius: 7px;
+    color: #FF68FF;
+    float: left;
+    height: 25px;
+    margin: 5px 20px 9px 535px;
     width: 220px;
-    margin-right: 20px;
+
 }
 .header-globle a
 {
-	/*margin-right: 20px;*/
+	margin-right: 20px;
 	margin-top: 10px;
 	color: #FFFFFF;
-    float: right;
+    float: left;
     font-family: -moz-fixed;
     font-weight: 800;
     padding-right: 33px;
@@ -71,23 +69,53 @@ body
     border-radius: 7px;
 
 }
+.home{
+    width: 50px;
+}
+.nav-bar ul{
+   padding: 9px;
+}
 .nav-bar ul li
 {
 	background-image: url("../images/seprater.png");
-     background-position: right 12px;
+    background-position: right 0;
     background-repeat: no-repeat;
     display: inline-block;
-    height: 41px;
-    padding-left: 19px;
-    padding-right: 59px;
+    /*height: 37px;*/
+    padding:10px 30px; 
+}
+.nav-bar ul li a {
+    display: block;
+    line-height: 27px;
+}
+.home {
+     height: 26px;
+}
+.about  {
+      height: 21px;
+}
+/*.home img{
+     height: 34px;
+}*/
+.chapter{
+      height: 21px;
+}
+.wiki
+{
+     height: 21px;
+}
+.event
+{
+     height: 21px;
 }
 .nav-bar ul li:last-child {
          background-image: none;
 }
 .nav-bar ul li img {
-   /* padding-bottom: 15px;*/
+   /* padding-bottom: 15px;
     padding-right: 7px;
-    padding-top: 7px;
+    padding-top: 7px;*/
+    padding-right: 9px;
 
 }
 .nav-bar ul li:hover{
@@ -115,15 +143,15 @@ body
 }
 .right-area h1 
 {
-color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin-left: 59px;width: 490px;
+color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin-left: 59px;width: 490px;padding-top: 45px;
 }
 .right-area h5
 {
-    color: #FFFFFF;font-family: Helvetica;font-size: 22px;font-weight: lighter;margin-left: 59px;width: 490px;
+    color: #FFFFFF;font-family: Helvetica;font-size: 22px;font-weight: lighter;margin-left: 59px;width: 490px; padding-top: 38px;
 }
 .right-area input
 {
-    background-color: #b13b0c;margin-left: 56px;border: none;border-radius: 4px;width: 141px;height:37px;color: #FFFFFF;
+    background-color: #b13b0c;margin-left: 56px;border: none;border-radius: 4px;width: 141px;height:37px;color: #FFFFFF;margin-top: 28px;
 }
 .left-slider ul{
     float: inherit;
@@ -214,6 +242,7 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
    display: inline-block;
     padding-bottom: 30px;
     padding-top: 20px;
+      padding-left: 15px;
 }
 .image {
 
@@ -244,8 +273,10 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     color: #666666;
 }
 .image-content input {
-  font-size: 10px;
-    height: 20px;
+  border: 3px solid #B8B8B8;
+    border-radius: 7px;
+    font-size: 10px;
+    height: 21px;
     margin: 15px 0 0;
     text-align: center;
     width: 92px;
@@ -284,13 +315,13 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
 }
 
 .chapbutton a{
-    color: #FFFFFF;
-    font-size: 0.8em;
-    line-height: 40px;
-    margin-left: 18px;
-    text-align: start;
-    text-decoration: inherit;
-    
+  color: rgb(255, 255, 255);
+font-size: 0.8em;
+line-height: 40px;
+margin-left: 1px;
+text-align: start;
+text-decoration: inherit;
+padding: 13px 15px;
 }
 .right-content p{
     color: #666666;
@@ -345,7 +376,7 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     width: 960px;
 }
 .slider-footer ul{
-margin:0;
+margin-left: 39px;
 
 }
 .slider-footer ul li{
