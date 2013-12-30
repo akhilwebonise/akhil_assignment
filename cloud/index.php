@@ -48,6 +48,7 @@
 			    <div class="left-heading"></div>
 			    <div class="left-content">
 			    	<ul>
+			    		
 			    		<li>
 			    			<div class="image"><img src="images/left3.png"></div>
 			    			<div class="image-content">
@@ -86,6 +87,7 @@
 			    			</div>
 			    			<div class="clear"></div>
 			    		</li>
+			    		<li></li>
 			    	</ul>
 			    </div> 
 			</div>
@@ -103,7 +105,12 @@
 			<div class="events">
 				<div class="events-heading"></div>
 				<div class="slider-footer">
-					<ul>
+					<div class="left-arrow">
+
+					</div>
+					<div class="div-inner">  
+						<ul>
+						<!-- <li class="arrow-left"></li> -->
 						<!-- <li class="first-li"><img src="images/first-li.png"></li> -->
 						<li class="li">
 						<img src="images/events1.png">
@@ -137,9 +144,13 @@
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and </h4>
 							<a href="">Read more</a>
 						</li>
-						<div class="clear"></div>
 						<!-- <li class="last-li"><img src="images/last-li.png"></li> -->
-					</ul>
+						<!-- <li class="arrow-right"></li> -->
+					   </ul>
+			       </div>
+					<div class="right-arrow">         
+					</div>
+					<div class="clear"></div>
 				</div>
 			</div>
 		</div>
