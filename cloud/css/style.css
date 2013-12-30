@@ -257,7 +257,7 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
 .image-content {
 
     float: right;
-    height: 133px;
+    /*height: 133px;*/
     width: 166px;
 }
 .image-content h4 {
@@ -272,6 +272,23 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     margin: 0;
     padding-top: 12px;
     color: #666666;
+}
+.learn
+{
+    border: 2px solid #b8b8b8;
+    height: 18px;
+    margin-top: 10px;
+    width: 92px;
+    border-radius: 4px;
+}
+.learn a{
+    font-size: 10px;
+padding-left: 11px;
+
+text-decoration: none;
+display: block;
+line-height: 19px;
+
 }
 .image-content input {
   border: 3px solid #B8B8B8;
@@ -292,7 +309,7 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     width: 567px;
 }
 .right-content img {
-    height: 404px;
+    height: 511px;
     padding-left: 25px;
     padding-top: 8px;
     width: 566px;
