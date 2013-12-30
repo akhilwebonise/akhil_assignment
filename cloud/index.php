@@ -6,15 +6,15 @@
 	<body>
 		<div class="wrapper">
 			<div class="header-globle">
-				
 				  <a href="">FAQ'S</a>
 				  <a href="">LOGIN</a>
 				  <input type="search" id="search" name="search" value="search" placeholder="search">
+				  <div class="clear"></div>
 			</div>
 			<div class="logo"></div>
 			<div class="nav-bar">
 				<ul>
-					<li><a href=""><img src="images/home.png" align=""><span>ABOUT US</span></a></li>
+					<li><a href=""><img src="images/home.png" align=""><span></span></a></li>
 					<li><a href=""><img src="images/about-us.png" align=""><span>ABOUT US</span></a></li>
 					<li><a href=""><img src="images/chapter.png"><span>CHAPTERS</span></a></li>
 					<li><a href=""><img src="images/events.png"><span>EVENTS</span></a></li>
@@ -47,22 +47,24 @@
 			    <div class="left-content">
 			    	<ul>
 			    		<li>
-			    			<div class="image"><img src="images/left1.png"></div>
+			    			<div class="image"><img src="images/left3.png"></div>
 			    			<div class="image-content">
 			    				<h4>November 08 2012</h4>
 			    				<h3>Preserving Cloud Application...</h3>
 			    				<h5>We are excited to announce a new version of micro...</h5>
 			    				<input type="button" name="Readmore" value="LEARN MORE">
 			    			</div>
+			    			<div class="clear"></div>
 			    		</li>
 			    		<li>
-			    			<div class="image"><img src="images/left1.png"></div>
+			    			<div class="image"><img src="images/left2.png"></div>
 			    			<div class="image-content">
 			    				<h4>November 12 2012</h4>
 			    				<h3>New Release of Micro Cloud Foundry</h3>
 			    				<h5>We are excited to announce a new version of micro...</h5>
 			    				<input type="button" name="Readmore" value="LEARN MORE">
 			    			</div>
+			    			<div class="clear"></div>
 			    		</li>
 			    		<li>
 			    			<div class="image"><img src="images/left1.png"></div>
@@ -72,6 +74,7 @@
 			    				<h5>We are excited to announce a new version of micro...</h5>
 			    				<input type="button" name="Readmore" value="LEARN MORE">
 			    			</div>
+			    			<div class="clear"></div>
 			    		</li>
 			    	</ul>
 			    </div> 
@@ -83,6 +86,7 @@
 					<img src="images/map.png">
 					<p>Couldn't find the location in your city?</p>
 					<div class="chapbutton"><a href="">CREATE A CHAPTER</a></div>
+					<div class="clear"></div>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -160,7 +164,7 @@
 				     		<h3>Dev center <a href="">Documentation</a> <span> / </span> <a href="">Get Started</a> / <a href="">Get Involved<a> <span> / </span> <a href="">Core Compatibility</a> <span> / </span><a href="">Pricing </a> <span> / </span><a href="">Jobs</a> <span> / </span> <a href="">Fourms</a> <span> / </span> <a href="">Get an Account</a></h3>
 						</li>
 				</ul>	
-				<!-- <img src="images/footer_icon.png"> -->
+				<img src="images/footer_icon.png"> 
 					<div class="last-icon">
 						<ul>
 							<li><a href="">SUPPORT</a></li>
