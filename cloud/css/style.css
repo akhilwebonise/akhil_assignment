@@ -472,6 +472,10 @@ background-repeat: repeat-x;
 .footer-wrapper ul li {
     display: inline;
 }
+..footer-wrapper ul li h3
+{
+    
+}
 .footer-wrapper ul li h3 a 
 {
    
@@ -482,7 +486,7 @@ background-repeat: repeat-x;
 }
 .footer-wrapper ul li h3 span
 {
-    color: rgb(0,150,214);
+    color: #39393e;
 }
 .footer-wrapper img
 {
