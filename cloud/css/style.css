@@ -309,12 +309,13 @@ text-decoration: underline;
 }
 .learn a{
     font-size: 10px;
-padding-left: 11px;
-
-text-decoration: none;
-display: block;
-line-height: 19px;
-
+    padding-left: 11px;
+    text-decoration: none;
+    display: block;
+    line-height: 19px;
+}
+.learn a:hover{
+    text-decoration: underline;
 }
 .image-content input {
   border: 3px solid #B8B8B8;
@@ -478,11 +479,12 @@ background-repeat: repeat-x;
 }
 .footer-wrapper ul li h3 a 
 {
-   
-    font-family: Myriad Pro;
     font-size: 14px;
-    text-decoration: none !important;
-
+    text-decoration: none;
+}
+.footer-wrapper ul li h3 a:hover
+{
+    text-decoration: underline;
 }
 .footer-wrapper ul li h3 span
 {
@@ -517,9 +519,11 @@ background-repeat: repeat-x;
 }
 .last-icon ul li a{
 
-    text-decoration: none !important;
+    text-decoration: none;
 }
-
+.last-icon ul li a:hover{
+    text-decoration: underline;
+}
 .last-icon ul li
 {
     color: #0096d6;
@@ -528,6 +532,12 @@ background-repeat: repeat-x;
     color: #ffffff;
     text-align: center;
 }
+.last-icon h4 a {
+    text-decoration: none;
+} 
+.last-icon h4 a:hover {
+    text-decoration: underline;
+} 
 .left-arrow{
     background: url("../images/first-li.png") no-repeat ;
     float: left;
@@ -590,4 +600,9 @@ background-repeat: repeat-x;
 }
 .div-inner ul li  a{
     padding-left: 9px;
+    text-decoration: none;
+}
+.div-inner ul li  a:hover
+{
+    text-decoration: underline;
 }
