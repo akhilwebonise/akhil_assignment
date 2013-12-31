@@ -114,32 +114,32 @@
 						<!-- <li class="first-li"><img src="images/first-li.png"></li> -->
 						<li class="li">
 						<img src="images/events1.png">
-							<h3>Jakarta</h3>
-							<h4>Sep 13 2013</h4>
+							<h3>Gluecon</h3>
+							<h4>Sep 14 , 2012</h4>
 							<span><b>Where :</b>Danvar(map)</span>
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and</h4>
 							<a href="">Read more</a>
 						</li>
 						<li class="li">
-							<img src="images/events1.png">
+							<img src="images/events2.png">
 							<h3>Jakarta</h3>
-							<h4>Sep 13 2013</h4>
+							<h4>Sep 21 , 2013</h4>
 							<span><b>Where :</b>Danvar(map)</span>
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and </h4>
 							<a href="">Read more</a>
 						</li>
 						<li class="li">
-							<img src="images/events1.png">
-							<h3>Jakarta</h3>
-							<h4>Sep 13 2013</h4>
+							<img src="images/events3.png">
+							<h3>London</h3>
+							<h4>Sep 13 , 2013</h4>
 							<span><b>Where :</b>Danvar(map)</span>
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and</h4>
 							<a href="">Read more</a>
 						</li>
 						<li class="li">
-							<img src="images/events1.png">
-							<h3>Jakarta</h3>
-							<h4>Sep 13 2013</h4>
+							<img src="images/events4.png">
+							<h3>Mysore</h3>
+							<h4>Sep 24 , 2013</h4>
 							<span><b>Where :</b>Danvar(map)</span>
 							<h4><b>Where :</b>Lorem Ipsum is simply dummy text of the printing and </h4>
 							<a href="">Read more</a>

@@ -577,12 +577,16 @@ background-repeat: repeat-x;
 }
 .div-inner ul li span{
     padding-left: 9px;
+    /*color: #449cc2;*/
 }
 .div-inner ul li h4{
     margin: 0;
     padding-bottom: 18px;
     padding-left: 9px;
-    color: #b8b8b8;
+    color: #8f8f8f;
+}
+.div-inner ul li h4 b {
+    color: #000;
 }
 .div-inner ul li  a{
     padding-left: 9px;
