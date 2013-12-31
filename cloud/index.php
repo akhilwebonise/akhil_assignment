@@ -15,11 +15,11 @@
 			<div class="logo"></div>
 			<div class="nav-bar">
 				<ul>
-					<li class="home"><a href=""><img src="images/home.png" align=""><span></span></a></li>
-					<li class="about"><a href=""><img src="images/about-us.png" align=""><span>ABOUT US</span></a></li>
-					<li class="chapter"><a href=""><img src="images/chapter.png"><span>CHAPTERS</span></a></li>
-					<li class="event"><a href=""><img src="images/events.png"><span>EVENTS</span></a></li>
-					<li class="wiki"><a href=""><img src="images/wiki.png"><span>WIKI</span></a></li>
+					<li id="home"><a href=""><img src="images/home.png" align=""></a></li>
+					<li class="others"><a href=""><img src="images/about-us.png" align="">ABOUT US</a></li>
+					<li class="others"><a href=""><img src="images/chapter.png">CHAPTERS</a></li>
+					<li class="others"><a href=""><img src="images/events.png">EVENTS</a></li>
+					<li class="others"><a href=""><img src="images/wiki.png">WIKI</a></li>
 				</ul>
 			</div>
 			<div class="slider">
@@ -53,7 +53,7 @@
 			    			<div class="image"><img src="images/left3.png"></div>
 			    			<div class="image-content">
 			    				<h4>November 08 2012</h4>
-			    				<h3>Preserving Cloud Application...</h3>
+			    				<h3><a href="">Preserving Cloud Application...</a></h3>
 			    				<h5>We are excited to announce a new version of micro...</h5>
 			    				<div class="learn">
 			    					<a href="">LEARN MORE</a>
@@ -65,7 +65,7 @@
 			    			<div class="image"><img src="images/left2.png"></div>
 			    			<div class="image-content">
 			    				<h4>November 12 2012</h4>
-			    				<h3>New Release of Micro Cloud Foundry</h3>
+			    				<h3><a href="">New Release of Micro Cloud Foundry</a></h3>
 			    				<h5>We are excited to announce a new version of micro...</h5>
 			    				<div class="learn">
 			    					<a href="">LEARN MORE</a>
@@ -78,7 +78,7 @@
 			    			<div class="image"><img src="images/left1.png"></div>
 			    			<div class="image-content">
 			    				<h4>November 18 2012</h4>
-			    				<h3>Cloud Founddry integration for...</h3>
+			    				<h3><a href="">Cloud Founddry integration for...</a></h3>
 			    				<h5>We are excited to announce a new version of micro...</h5>
 			    				<div class="learn">
 			    					<a href="">LEARN MORE</a>

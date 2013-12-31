@@ -58,6 +58,10 @@ html {
     height: 71px;
     margin-top: 37px;
     width: 433px;
+    opacity: 0.5;
+}
+.logo :hover{
+    opacity:1.0;
 }
 .nav-bar
 {
@@ -69,29 +73,40 @@ html {
     border-radius: 7px;
 
 }
-.home{
-    width: 50px;
+#home{
+    width: 80px;
+    line-height: 2;
 }
+#home a{
+    height: 45px;
+}
+
 .nav-bar ul{
-   padding: 9px;
+   margin: 0;
+   padding: 0;
 }
 .nav-bar ul li
 {
 	background-image: url("../images/seprater.png");
     background-position: right 0;
     background-repeat: no-repeat;
-    display: inline-block;
+    display:inline-block;
+    width: 210px;
+    text-align: center;
+    line-height: 3;
     /*height: 37px;*/
-    padding: 6px 46px;
+
 }
 .nav-bar ul li a {
     display: block;
-    line-height: 27px;
+   
     text-decoration: none;
+    height: 54px;
 }
 .home {
-     height: 31px;
-}
+
+     }
+   
 .about  {
       height: 27px;
 }
@@ -268,9 +283,16 @@ color: #FFFFFF;font-family: Helvetica;font-size: 44px;font-weight: normal;margin
     margin: 0;
     color: #999a9b;
 }
-.image-content h3{
+.image-content h3 a{
      margin: 0;
     padding-top: 14px;
+    text-decoration: none;
+    color: #000;
+}
+.image-content h3 a:hover
+{
+text-decoration: underline;
+
 }
 .image-content h5{
     margin: 0;
@@ -332,7 +354,7 @@ line-height: 19px;
     border-radius: 4px;
     float: right;
     height: 40px;
-    margin: 47px 27px 15px 133px;
+    margin: 7px 23px 15px 133px;
     width: 155px;
 }
 
@@ -460,7 +482,7 @@ background-repeat: repeat-x;
 }
 .footer-wrapper ul li h3 span
 {
-    color: #39393e;
+    color: rgb(0,150,214);
 }
 .footer-wrapper img
 {
@@ -468,8 +490,11 @@ background-repeat: repeat-x;
     background-repeat: no-repeat;
     height: 120px;
     margin-left: 167px;
+    opacity: 0.5;
 }
-
+.footer-wrapper img:hover{
+    opacity:1.0;
+}
 .last-icon ul
 {
     margin: 0;
