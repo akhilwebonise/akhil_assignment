@@ -472,9 +472,9 @@ background-repeat: repeat-x;
 .footer-wrapper ul li {
     display: inline;
 }
-..footer-wrapper ul li h3
+.footer-wrapper ul li h3
 {
-    
+    color: #979799;
 }
 .footer-wrapper ul li h3 a 
 {
