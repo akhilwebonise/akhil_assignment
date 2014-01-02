@@ -311,7 +311,7 @@ hr{
 
 .heading img{
     float:left; 
-    /*padding-left:34px;*/
+    padding-left: 19px;
     opacity:0.3;
 }
 .first,.second,.third{
@@ -396,7 +396,7 @@ hr{
     border-radius:4px;
 }
 .leftImage img{
-     padding-left: 101px;
+    padding-left: 86px;
     float:left;
     opacity:0.3;
 }
