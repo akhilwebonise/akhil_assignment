@@ -59,12 +59,14 @@ body{
     background-repeat:no-repeat;
 }
 #SearchButton{
-     background:#212a32;
-    float:left;
-    margin-top:5px;
-    margin-bottom:8px;
-    border-radius:4px;
-    color:#6e7275;
+    background: none repeat scroll 0 0 #212A32;
+    border-radius: 4px;
+    color: #6E7275;
+    float: left;
+    height: 29px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    width: 27px;
 
 }
 #block ul{
@@ -172,6 +174,7 @@ body{
     margin-left:40px;
     margin-top:40px;
     text-shadow: 0 -2px 1px #000;
+    display: block;
 }
 .leftMiddel{
     font-family:arial,"Helvetica_Light-Normal_Regular",serif,sans-serif;
@@ -180,6 +183,7 @@ body{
     margin-left:40px;
     margin-top:20px;
     text-shadow: 0 -2px 1px #000;
+    display: block;
 }
 #button{
     width:100px;
@@ -301,7 +305,7 @@ hr{
     height:55px;
     border-radius:7px;
     border-bottom:1px solid #ccc;
-    /*margin-bottom: 20px;*/
+    margin-bottom: 7px;
 }
 .heading h3{
     padding:15px 0 15px 25px;
@@ -334,6 +338,7 @@ hr{
     color:#888888;
     font-size:0.8em;
     margin-top:10px;
+    display: block;
 }
 .announce {
     color:#000;
@@ -341,6 +346,7 @@ hr{
     font-size:1em;
     font-weight:bold;
     padding-top:10px;
+    display: block;
 }
 
 .announce a{
@@ -424,11 +430,12 @@ input{
    right: 515px;
 }
 
-#mapView  p{
+#mapView  span{
     margin-left:25px;
     float:left;
     color:#666666;
     font-size:0.9em;
+    display: block;
 }
 
 #map{
@@ -490,6 +497,7 @@ input{
     height:55px;
     border-radius:4px;
     border-bottom:1px solid #ccc;
+    margin-bottom: 30px;
 }
 
 #headinEvents img{
@@ -519,7 +527,6 @@ input{
     border-radius:4px;
     margin-left:3px;
     margin-right:3px;
-    margin-top:30px;
     background:#ffffff;
 }
 .carousel img{
@@ -618,7 +625,7 @@ input{
     text-decoration:underline;
 }
 
-.innerLinks li .footerSeprater{
+.backslash{
     padding-left:9px;
     color:#37383c;
 }
@@ -650,7 +657,7 @@ input{
 }
 #lowerfooter{
     max-width: 100%;
-    padding: 30px 0 10px 428px;
+    padding: 30px 0 10px 480px;
 }
 #lowerfooter ul{
     list-style:none;
@@ -659,11 +666,11 @@ input{
  #lowerfooter ul li{
     float:left;
 }
-#lowerfooter ul li:after{
-    content: "•";
-    padding-left:10px;
-    padding-right:10px;
-    color:#fff;
+.dot{
+    color: #FFFFFF;
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
 }
 #lowerfooter ul li:last-child:after{
     content:none;
@@ -692,6 +699,7 @@ input{
     text-align:center;
     color:#fff;
     font-size:0.9em;
+    display: block;
 }
 
 #description .hl{

@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
         <title>Cloud Foundry</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -11,7 +10,7 @@
             <div id="wrapper">
                 <div id="block">
                         <input type="search" id="searchbar" placeholder="Search"/>
-                        <!-- <input type="button" id="SearchButton" placeholder="SearchButton" />  -->
+                        <input type="button" id="SearchButton" placeholder="SearchButton" /> 
                         <ul>
                             <li><a href="#">FAQ's</a></li>
                             <li class="separator">|</li>
@@ -26,15 +25,15 @@
             </div>
             <nav id="navBar"><!--begining of navigation bar-->
                 <ul>
-                    <li  id="home"><a href="" class="active"><img src="images/home.png" ></a></li>
+                    <li  id="home"><a href="#" class="active"><img src="images/home.png" ></a></li>
                     <li><span class="sep">|</span></li>
-                    <li class="other"><a href="">ABOUT</a></li>
+                    <li class="other"><a href="#">ABOUT</a></li>
                     <li><span class="sep">|</span></li>
-                    <li class="other"><a href="">CHAPTERS</a></li>
+                    <li class="other"><a href="#">CHAPTERS</a></li>
                     <li><span class="sep">|</span></li>
-                    <li class="other"><a href="">EVENTS</a></li>
+                    <li class="other"><a href="#">EVENTS</a></li>
                     <li><span class="sep">|</span></li>
-                    <li class="other"><a href="">WIKI</a></li>
+                    <li class="other"><a href="#">WIKI</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,8 +43,8 @@
         <div id="wrapper">
             <div class="banner">
                 <div class="leftSection">
-                    <p class="leftUpper">Liberal World Of Knowledge Sharing For Developer</p>
-                    <p class="leftMiddel">Your Key of an awesome knowledge cloud</p>
+                    <span class="leftUpper">Liberal World Of Knowledge Sharing For Developer</span>
+                    <span class="leftMiddel">Your Key of an awesome knowledge cloud</span>
                     <a href=""><span id=button>SIGN UP</span></a>
                 </div>
                 <div id="rightSection">
@@ -74,9 +73,9 @@
                         <article class="first">
                             <img src="images/la1.jpg" alt="Latest Announcements">
                                 <div class="info">
-                                    <p class="date">November 08 2012</p>
-                                    <p class="announce"><a href="">Preserving Cloud Applications...</a></p>
-                                    <p class="annDesc">We are excited to announce a new version of Micro...</p>
+                                    <span class="date">November 08 2012</span>
+                                    <span class="announce"><a href="">Preserving Cloud Applications...</a></span>
+                                    <span class="annDesc">We are excited to announce a new version of Micro...</span>
                                     <div class="learnButton"><p><a href="">LEARN MORE</a></p></div>
                                  </div>
                         </article></li>
@@ -84,9 +83,9 @@
                             <article class="second">
                             <img src="images/la2.jpg" alt="Latest Announcements">
                             <div class="info">
-                                <p class="date">November 12 2012</p>
-                                <p class="announce"><a href="">New Release of Micro Cloud Foundary..</a></p>
-                                <p class="annDesc">We are excited to announce a new version of Micro...</p>
+                                <span class="date">November 12 2012</span>
+                                <span class="announce"><a href="">New Release of Micro Cloud Foundary..</a></span>
+                                <span class="annDesc">We are excited to announce a new version of Micro...</span>
                                 <div class="learnButton"><p><a href="">LEARN MORE</a></p></div>
                             </div>
                             </article></li>
@@ -94,9 +93,9 @@
                             <article class="third">
                             <img src="images/la3.jpg" alt="Latest Announcements">
                             <div class="info">
-                                <p class="date">November 18 2012</p>
-                                <p class="announce"><a href="">Cloud Foundary Integration for...</a></p>
-                                <p class="annDesc">We are excited to announce a new version of Micro...</p>
+                                <span class="date">November 18 2012</span>
+                                <span class="announce"><a href="">Cloud Foundary Integration for...</a></span>
+                                <span class="annDesc">We are excited to announce a new version of Micro...</span>
                                 <div class="learnButton"><p><a href="">LEARN MORE</a></p></div>
                             </div>
                             </article>
@@ -114,7 +113,7 @@
                     <input type="search" name="cityname" id="citySearch" placeholder="City Name">
                     <div id="mapView">
                         <img src="images/map.png" alt="map">
-                        <p>Couldn't find the location in your city?</p>
+                        <span>Couldn't find the location in your city?</span>
                         <div class="rightButton"><a href="">CREATE A CHAPTER</a></div>
                     </div>
                 </div>
@@ -186,92 +185,124 @@
             <footer class="innerLinks">
                 <ul>
                     <li><p>Cloud Foundry</p></li>
-                    <li><a href="">About</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Partners<span class="footerSeprater">/</span></li>
-                    <li><a href="">Events</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Gallery</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Pricing</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Jobs</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Forums</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Get an Account</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Partners</li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Events</li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Gallery</li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Pricing</li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Jobs</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Forums</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Get an Account</a></li>
                 </ul>
             </footer>
             <footer class="innerLinks">
                 <ul>
                     <li><p>Features</p></li>
-                    <li><a href="">Feature one</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Feature two</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Feature three</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Feature four</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Feature five</a></li>
+                    <li><a href="#">Feature one</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Feature two</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Feature three</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Feature four</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Feature five</a></li>
                 </ul>
             </footer>
             <footer class="innerLinks">
                 <ul>
                     <li><p>Frameworks &amp; Languages</p></li>
-                    <li><a href="">Ruby</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Rails &amp; Sinatra</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Java</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Spring</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Scala</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Play</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Javascript</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Node.js</a></li>
+                    <li><a href="#">Ruby</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Rails &amp; Sinatra</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Java</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Spring</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Scala</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Play</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Javascript</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Node.js</a></li>
                 </ul>
             </footer>
              <footer class="innerLinks">
                 <ul>
                     <li><p>Services</p></li>
-                    <li><a href="">Redis</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">RabbitMQ</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">MongoDB</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">MySQL</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">PostgreSQL</a></li>
+                    <li><a href="#">Redis</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">RabbitMQ</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">MongoDB</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">MySQL</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">PostgreSQL</a></li>
                 </ul>
             </footer>
              <footer class="innerLinks">
                 <ul>
                     <li><p>Cloud</p></li>
-                    <li><a href="">Public</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Private</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Micro</a></li>
+                    <li><a href="#">Public</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Private</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Micro</a></li>
                 </ul>
             </footer>
              <footer class="innerLinks">
                 <ul>
                     <li><p>Dev Center</p></li>
-                    <li><a href="">Documentation</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Get Started</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Get Involved</a><span class="footerSeprater">/</span></li>
-                    <li><a href="">Core Compatibility</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Get Started</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Get Involved</a></li>
+                    <li class="backslash">/</li>
+                    <li><a href="#">Core Compatibility</a></li>
                 </ul>
             </footer>
           </div>
           <div id="socialLinks">
               <div id="icons">
               <ul>
-                  <li><a href=""><img src="images/twitter.png" alt="twitter" title="twitter.com"></a></li>
-                  <li><a href=""><img src="images/fb.png" alt="facebook.com" title="facebook.com"></a></li>
-                  <li><a href=""><img src="images/yt.png" alt="youtube.com" title="youtube.com"></a></li>
+                  <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                  <li><a href="#"><img src="images/fb.png" alt="facebook.com"></a></li>
+                  <li><a href="#"><img src="images/yt.png" alt="youtube.com"></a></li>
               </ul>
               </div>
           </div>
           <div id="lowerfooter">
               <ul>
-                  <li><a href="" id="fs">SUPPORT</a></li>
-                  <li><a href="">STATUS</a></li>
-                  <li><a href="">FAQ</a></li>
-                  <li><a href="">BLOG</a></li>
-                  <li><a href="">LEGAL</a></li>
-                  <li><a href="">PRIVACY</a></li>
+                  <li><a href="#" id="fs">SUPPORT</a></li>
+                  <li class="dot">.</li>
+                  <li><a href="#">STATUS</a></li>
+                  <li class="dot">.</li>
+                  <li><a href="#">FAQ</a></li>
+                  <li class="dot">.</li>
+                  <li><a href="#">BLOG</a></li>
+                  <li class="dot">.</li>
+                  <li><a href="#">LEGAL</a></li>
+                  <li class="dot">.</li>
+                  <li><a href="#">PRIVACY</a></li>
               </ul>
           </div>
           <div id="description">
-             <p>&copy; 2012 Foundry, by VMware. All rights reserved. <span class="hl" title="Read more about terms and conditions"><a href="">Terms of service</a></span> and Trademark Standards.</p>
+             <p>&copy; 2012 Foundry, by VMware. All rights reserved.<span class="hl"><a href="">Terms of service</a></span> and Trademark Standards.</p>
           </div>
             <div class="clear">
-                </div>
-        </div><!--end of global footer-->
+            </div>
+        </div>
     </body>
 
 </html>
