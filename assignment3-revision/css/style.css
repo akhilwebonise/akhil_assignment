@@ -301,7 +301,7 @@ hr{
     height:55px;
     border-radius:7px;
     border-bottom:1px solid #ccc;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 .heading h3{
     padding:15px 0 15px 25px;
@@ -311,7 +311,7 @@ hr{
 
 .heading img{
     float:left; 
-    padding-left:34px;
+    /*padding-left:34px;*/
     opacity:0.3;
 }
 .first,.second,.third{
@@ -396,7 +396,7 @@ hr{
     border-radius:4px;
 }
 .leftImage img{
-    padding-left: 118px;
+     padding-left: 101px;
     float:left;
     opacity:0.3;
 }
@@ -493,7 +493,7 @@ input{
 }
 
 #headinEvents img{
-    padding-left:715px;
+    padding-left: 696px;
     float:left;
     opacity:0.3;   
 }
