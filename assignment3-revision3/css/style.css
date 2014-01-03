@@ -284,6 +284,13 @@ body{
     line-height:25px;
 }
 */
+.container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
 .sliderbutton{
     opacity:1;
 }
@@ -293,8 +300,6 @@ body{
 }
 
 .mainSection{
-    width:960px;
-    float:left;
     margin-bottom:20px;
     position: relative;
 }
@@ -303,15 +308,8 @@ body{
     list-style:none;
 }
 */
-.mainSection ul li
-{
-    display:inline-block;
-    float:left;
-}
-
 .announcement
 {
-    height:570px;
     border:1px solid #cccccc;
     border-radius:6px;
     float:left;
@@ -328,7 +326,6 @@ hr
 }
 .annousHeading
 {
-    /*background:linear-gradient(#f3f3f3,#fdfdfd);*/
     background-image: url(../images/annouosmentBgc.png);
     height:43px;
     border-top-left-radius: 7px;
@@ -353,88 +350,80 @@ hr
     float:right; 
     opacity:1;
 }
-.announcement ul 
+.rightWidgets
 {
     padding-left: 19px;
     padding-right: 22px;
 }
-.announcement ul li 
+.imageWrapper
 {
-   height: 133px;
-    margin-bottom: 30px;
-    width: 277px;
+    float: left;
+    margin-right: 15px;
 }
-
-.announcementList,.announce2,.announce3{
-    width:100%;
-    /*height:165px;*/
-    float:left;
+.imageWrapper img
+{
     
 }
-.announcementList img,.announce2 img,.announce3 img{
-    border: 1px solid #CCCCCC;
+.inforWrapper
+{
     float: left;
-    /*margin-right: 15px;*/
+    width: 180px;
+    margin-bottom: 30px;
 }
-.info{
-     float: right;
-    width: 178px;
-}
-.date{
+.date
+{
     color: #888888;
     display: block;
-    font-size: 0.8em;
+    font-family: Arial,Helvetica,SANS-SERIF;
+    font-size: 13px;
     margin-bottom: 10px;
 }
-.announce {
+.announce 
+{
     color:#000;
-    float:left;
-    font-size:1em;
+    font-size:16px;
     font-weight:bold;
     display: block;
     margin-bottom: 14px;
 }
-
-.announce a{
+.announce a
+{
     text-decoration:none;
     color:#000;
 }
-
-.announce a:hover{
-    text-decoration:underline;
+.announce a:hover
+{
+    text-decoration: underline;
 }
-.annDesc{
+.annDesc
+{
     color:#888888;
     float:right;
-    font-size:0.8em;
+    font-size:13px;
     margin-bottom: 16px;
 }
-
 .learnButton{
-    background: linear-gradient(#FDFDFD, #D2D2D2) repeat scroll 0 0 rgba(0, 0, 0, 0);
+     background: linear-gradient(#FDFDFD, #D2D2D2) repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 1px solid #B8B8B8;
     border-radius: 4px;
-    display: block;
-    font-size: 11px;
-    height: 20px;
-    margin-top: 108px;
-    text-align: center;
-    width: 98px;
     color: #333333;
+    font-family: arial,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 19px;
+    padding: 5px 9px;
+    text-align: center;
     text-decoration: none;
+    width: 98px;
+    margin-bottom: 30px;
 }
-.learnButton:hover{
-     background:linear-gradient(#fdfdfd,#C3F9FA);
-     text-decoration: underline;
+.learnButton a:hover
+{
+    text-decoration: underline;
 }
-
-.learnButton a{
-    color:#333333;
-    font-size:0.7em;
-    text-align:center;
-    text-shadow:;
-    text-decoration:none;
-     padding: 0 8px;
+.mainSection ul li
+{
+    display:inline-block;
+    float:left;
 }
 .chapter{
     background: none repeat scroll 0 0 #E5F1F9;
@@ -443,26 +432,6 @@ hr
     float: left;
     height: 570px;
     width: 617px;
-}
-.chapterHeading
-{
-    background-image: url(../images/annouosmentBgc.png);
-    height:43px;
-    margin-bottom: 20px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom: 1px solid #CCCCCC;
-}
-.chapter h3{
-    border-radius: 4px;
-    color: #393939;
-    float: left;
-    font-family: arial,HelveticaNeue,sans-serif;
-    font-size: 16px;
-    padding-left: 24px;
-    padding-right: 143px;
-    padding-top: 17px;
-    padding-bottom: 10px;
 }
 .chapterHeading img
 {
