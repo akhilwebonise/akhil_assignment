@@ -6,179 +6,155 @@
     </head>
     <body>
     <div class="header">
-        <div id="gHeader">
-            <div id="wrapper">
-                <div id="block">
+        <div id="globleHeader">
+            <div class="wrapper">
+                <div class="topBar">
                         <input type="search" id="searchbar" placeholder="Search"/>
                         <!-- <input type="button" id="SearchButton" placeholder="SearchButton" />  -->
                         <ul>
                             <li><a href="#">FAQ's</a></li>
-                            <li class="separator">|</li>
-                            <li><a href="#">LOGIN</a></li>
+                             <li><a href="#">LOGIN</a></li>
                         </ul>
                 </div>
             </div>
         </div>
-        <div id="wrapper">
-            <div id="logo">
-                <a href=""><img src="images/logo.png" alt="LOGO" title="Cloudfoundry.com"></a>
-            </div>
-            <nav id="navBar">
+        <div class="wrapper">
+            <a class="logo" href=""><img src="images/logo.png" alt="LOGO"></a>
+            <nav class="navBar">
                 <ul>
-                    <li  id="home"><a href="#" class="active"><img src="images/home.png" ></a></li>
-                    <li><span class="sep">|</span></li>
-                    <li class="other"><a href="#">ABOUT</a></li>
-                    <li><span class="sep">|</span></li>
-                    <li class="other"><a href="#">CHAPTERS</a></li>
-                    <li><span class="sep">|</span></li>
-                    <li class="other"><a href="#">EVENTS</a></li>
-                    <li><span class="sep">|</span></li>
-                    <li class="other"><a href="#">WIKI</a></li>
+                    <li class="home"><a href="#" class="active"><img src="images/home.png" ></a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CHAPTERS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">WIKI</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 <!--header ends here-->
     <div class="container">
-        <div id="wrapper">
+        <div class="wrapper">
             <div class="banner">
                 <div class="leftSection">
                     <span class="leftUpper">Liberal World Of Knowledge Sharing For Developer</span>
                     <span class="leftMiddel">Your Key of an awesome knowledge cloud</span>
-                    <a href=""><span id=button>SIGN UP</span></a>
+                    <a class="signupButton" href="#">SIGN UP</a>
                 </div>
-                <div id="rightSection">
-                    <ul>
-                        <li><a href="" class="slider"><img src="images/left.png" class="sliderbutton"></a></li>
-                        <li><div id="1" class="number"><a href=""><p>1</p></a></div></li>
-                        <li><div id="2" class="number"><a href=""><p>2</p></a></div></li>
-                        <li><div id="3" class="number"><a href=""><p>3</p></a></div></li>
-                        <li><a href="" class="slider"><img src="images/right.png" class="sliderbutton"></a></li>
-                    </ul>
+                <div class="rightSection">
+                   <img src="./images/cloud.png">
                 </div>
                 <div class="clear">
                 </div>
             </div>
 <!--end of banner-->
-    <section id="mainSection">
-        <div id="leftside">
-            <div class="heading">
-                <ul>    
-                    <li><h3>Latest Announcements</h3></li>
-                    <li><img src="images/upcomingeventsheaderimage.png" alt=""></li>
-                </ul>   
-            </div>
-                <ul>
-                    <li>
-                        <article class="first">
-                            <img src="images/la1.jpg" alt="Latest Announcements">
-                                <div class="info">
-                                    <span class="date">November 08 2012</span>
-                                    <span class="announce"><a href="">Preserving Cloud Applications...</a></span>
-                                    <span class="annDesc">We are excited to announce a new version of Micro...</span>
-                                    <div class="learnButton"><p><a href="">LEARN MORE</a></p></div>
+            <div class="mainSection">
+                 <div class="announcement">
+                         <div class="annousHeading">
+                                <h3>Latest Announcements</h3>
+                                 <img src="images/annousmentBg.png" alt="">
+                        </div>
+                         <ul>
+                             <li>
+                                 <div class="announcementList">
+                                       <img src="images/annousmentImage1.png" alt="" />
+                                           <div class="info">
+                                                <span class="date">November 08 2012</span>
+                                                <span class="announce"><a href="">Preserving Cloud Applications...</a></span>
+                                                <span class="annDesc">We are excited to announce a new version of Micro...</span>
+                                                <a class="learnButton"href="">LEARN MORE</a>
+                                            </div>
                                  </div>
-                        </article></li>
-                        <li>
-                            <article class="second">
-                            <img src="images/la2.jpg" alt="Latest Announcements">
-                            <div class="info">
-                                <span class="date">November 12 2012</span>
-                                <span class="announce"><a href="">New Release of Micro Cloud Foundary..</a></span>
-                                <span class="annDesc">We are excited to announce a new version of Micro...</span>
-                                <div class="learnButton"><p><a href="">LEARN MORE</a></p></div>
-                            </div>
-                            </article></li>
-                        <li>
-                            <article class="third">
-                            <img src="images/la3.jpg" alt="Latest Announcements">
-                            <div class="info">
-                                <span class="date">November 18 2012</span>
-                                <span class="announce"><a href="">Cloud Foundary Integration for...</a></span>
-                                <span class="annDesc">We are excited to announce a new version of Micro...</span>
-                                <div class="learnButton"><p><a href="">LEARN MORE</a></p></div>
-                            </div>
-                            </article>
-                        </li>
-                    </ul>
-                </div>
-                <div id="rightside">
-                    <div class="heading">
-                      <ul> 
-                        <li><h3>Check whether your city has a CFDG chapter?</h3></li>
-                        <li class="leftImage"><img src="images/chapterheaderimage.png" alt="" ></li>
-                      </ul>
+                                </li>
+                                <li>
+                                    <div class="announcementList">
+                                         <img src="images/annousmentImage2.png" alt="">
+                                              <div class="info">
+                                                  <span class="date">November 08 2012</span>
+                                                  <span class="announce"><a href="">New Release of Micro Cloud Foundary..</a></span>
+                                                  <span class="annDesc">We are excited to announce a new version of Micro...</span>
+                                                 <a class="learnButton"href="">LEARN MORE</a>
+                                            </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="announcementList">
+                                         <img src="images/annousmentImage3.png" alt="">
+                                          <div class="info">
+                                                <span class="date">November 08 2012</span>
+                                                  <span class="announce"><a href="">Cloud Foundary Integration for...</a></span>
+                                                     <span class="annDesc">We are excited to announce a new version of Micro...</span>
+                                                         <a class="learnButton"href="">LEARN MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                     </div>
-                    
-                    <input type="search" name="cityname" id="citySearch" placeholder="City Name">
-                    <div id="mapView">
-                        <img src="images/map.png" alt="map">
-                        <span>Couldn't find the location in your city?</span>
-                        <div class="rightButton"><a href="">CREATE A CHAPTER</a></div>
+                    <div class="chapter">
+                            <div class="chapterHeading">
+                                <h3>Check whether your city has a CFDG chapter?</h3>
+                                <img src="images/chapterHeding.png" alt="" >
+                            </div>
+                                 <input type="search" name="cityname" id="citySearch" placeholder="City Name">
+                             <div id="mapView">
+                                    <img src="images/map.png" alt="map">
+                                           <span>Couldn't find the location in your city?</span>
+                                            <div class="rightButton"><a href="">CREATE A CHAPTER</a></div>
+                            </div>
                     </div>
+                    <div class="clear"></div>
+            </div>
+             <!--end of main section-->
+                <div id="containerEvents">
+                     <div class="eventsHeading">
+                         <h3>Upcoming Events</h3>
+                              <img src="images/upHeading.png"  alt="">
+                    </div>
+                    <div>
+                        <!--left arrow image -->
+                    </div>
+                    <div class="carousel">
+                        <img src="images/upcomingeventsimage1.png" alt="Image1">
+                        <h4>Gluecon</h4>
+                        <h5>Sept 14, 2012</h5>
+                        <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
+                        <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
+                        <p><span class="afooter"><a href="">Read more</a></span></p>
+                    </div>
+                    <div class="carousel">
+                        <img src="images/upcomingeventsimage2.png" alt="Image1">
+                        <h4>Jakarta</h4>
+                        <h5>Sept 16, 2012</h5>
+                        <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
+                        <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
+                        <p><span class="afooter"><a href="">Read more</a></span></p>
+                    </div>
+                     <div class="carousel">
+                        <img src="images/upcomingeventsimage3.png" alt="Image1">
+                        <h4>London</h4>
+                        <h5>Sept 21, 2012</h5>
+                        <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
+                        <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
+                        <p><span class="afooter"><a href="">Read more</a></span></p>
+                    </div>
+                    <div class="carousel">
+                        <img src="images/upcomingeventsimage4.png" alt="Image1">
+                        <h4>Mysore</h4>
+                        <h5>Sept 24, 2012</h5>
+                        <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
+                        <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
+                        <p><span class="afooter"><a href="">Read more</a></span></p>
+                    </div>
+                    <div>
+                         <!--right arrow image -->                        
+                    </div>
+
+
+                    <div class="clear"></div>
                 </div>
-                 <div class="clear">
-                </div>
-    </section>
- <!--end of main section-->
-    <section id="containerEvents">
-                <div class="eventsHeading">
-                    <ul>
-                        <li><h3>Upcoming Events</h3></li>
-                        <li id="headinEvents"><img src="images/other.png"  alt=""></li>
-                    </ul>
-                </div>
-                <ul>
-                    <li><a href=""><img src="images/upcomingevents%20left.png" alt="leftclick" class="leftclick" id="clicks"></a></li>
-                    <li>
-                        <div class="carousel">
-                            <img src="images/upcomingeventsimage1.png" alt="Image1">
-                            <h4>Gluecon</h4>
-                            <h5>Sept 14, 2012</h5>
-                            <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
-                            <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
-                            <p><span class="afooter"><a href="">Read more</a></span></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="carousel">
-                            <img src="images/upcomingeventsimage2.png" alt="Image1">
-                            <h4>Jakarta</h4>
-                            <h5>Sept 16, 2012</h5>
-                            <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
-                            <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
-                            <p><span class="afooter"><a href="">Read more</a></span></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="carousel">
-                            <img src="images/upcomingeventsimage3.png" alt="Image1">
-                            <h4>London</h4>
-                            <h5>Sept 21, 2012</h5>
-                            <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
-                            <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
-                            <p><span class="afooter"><a href="">Read more</a></span></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="carousel">
-                            <img src="images/upcomingeventsimage4.png" alt="Image1">
-                            <h4>Mysore</h4>
-                            <h5>Sept 24, 2012</h5>
-                            <p><span class="strong">Where:</span> Denver<span class="maplink"><a href="">(map)</a></span></p>
-                       <p><span class="desc">Description:</span> Lorem Ipsum dotem is simply dummy text of the printing and...</p>
-                            <p><span class="afooter"><a href="">Read more</a></span></p>
-                        </div>
-                    </li>
-                    <li><a href=""><img src="images/upcomingevents%20right.png" alt="leftclick" class="rightclick" id="clicks"></a></li>
-                </ul>
-                <div class="clear">
-                </div>
-    </section>
-            <br clear="all" />
+                <div class="clear"></div>
         </div>
     </div>
-</div>
+<!-- </div> -->
 <!--end of carousal  -->
         <div id="footer">
            <div id="links">
