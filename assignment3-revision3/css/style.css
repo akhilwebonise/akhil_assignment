@@ -301,13 +301,18 @@ body{
 
 .mainSection{
     margin-bottom:20px;
-    position: relative;
+    
 }
    
 /*.mainSection ul{
     list-style:none;
 }
 */
+.rightWidgets ul li
+{
+    display: inline-block;
+    float: left;
+}
 .announcement
 {
     border:1px solid #cccccc;
@@ -335,16 +340,38 @@ hr
 }
 .annousHeading h3
 {
-     border-radius: 4px;
+    background-image: url("../images/annousmentBg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 4px;
     color: #393939;
-    float: left;
     font-family: arial,HelveticaNeue,sans-serif;
     font-size: 17px;
-    padding-left: 27px;
-    padding-right: 43px;
-    padding-top: 16px;
+    line-height: 43px;
+    padding-left: 26px;
+    
 }
-
+.chapterHeading
+{
+     background-image: url(../images/annouosmentBgc.png);
+    height:43px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 25px; 
+}
+.chapterHeading h3 
+{
+    background-image: url("../images/chapterHeding.png");
+    background-position: right;
+     background-repeat: no-repeat;
+    border-radius: 4px;
+    color: #393939;
+    font-family: arial,HelveticaNeue,sans-serif;
+    font-size: 17px;
+    line-height: 43px;
+    padding-left: 26px;
+}
 .annousHeading img
 {
     float:right; 
@@ -367,24 +394,26 @@ hr
 .inforWrapper
 {
     float: left;
-    width: 180px;
     margin-bottom: 30px;
+    width: 180px;
 }
 .date
 {
-    color: #888888;
+  color: #888888;
     display: block;
-    font-family: Arial,Helvetica,SANS-SERIF;
+    font-family: Helvetica,SANS-SERIF;
     font-size: 13px;
+    line-height: 15px;
     margin-bottom: 10px;
 }
 .announce 
 {
-    color:#000;
-    font-size:16px;
-    font-weight:bold;
+    color: #000000;
     display: block;
-    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 10px;
 }
 .announce a
 {
@@ -414,23 +443,23 @@ hr
     text-align: center;
     text-decoration: none;
     width: 98px;
-    margin-bottom: 30px;
+    
 }
 .learnButton a:hover
 {
     text-decoration: underline;
 }
-.mainSection ul li
+/*.mainSection ul li
 {
     display:inline-block;
     float:left;
-}
-.chapter{
+}*/
+.chapter
+{
     background: none repeat scroll 0 0 #E5F1F9;
     border: 1px solid #CCCCCC;
     border-radius: 7px;
     float: left;
-    height: 570px;
     width: 617px;
 }
 .chapterHeading img
@@ -445,7 +474,7 @@ hr
     height:30px;
     border:1px solid #7faac5;
     border-radius:4px;
-    margin: 0 20px 15px;
+    margin: 0 25px 8px;
     }
 
 input{
@@ -454,9 +483,11 @@ input{
     background-position:right;
 }
 #mapView img{
-    padding-bottom: 18px;
-    padding-left: 26px;
-    padding-right: 26px;
+   height: 370px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 570px;
 }
 
 .overlayimage{
@@ -481,13 +512,14 @@ input{
     background-position:center;
 }
 .rightButton{
-    float:left;
-    width:155px;
-    height:40px;
-    border:1px solid #813516;
-    border-radius:4px;
-    margin-left:175px;
-    background:linear-gradient(#fa6022,#ab380a);
+    background: linear-gradient(#FA6022, #AB380A) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #813516;
+    border-radius: 4px;
+    float: left;
+    height: 40px;
+    margin-bottom: 17px;
+    margin-left: 175px;
+    width: 155px;
 }
 
 
