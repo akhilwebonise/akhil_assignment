@@ -541,7 +541,7 @@ input{
     clear:both;
 }
 
-#containerEvents{
+.containerEvents{
     float:left;
     width:960px;
     height:390px;
@@ -550,11 +550,20 @@ input{
     background:#e5f1f9;
     background-image:url(images/wrapperbg.png) no-repeat 0 0;
 }
-
-/*#containerEvents h3{
-    
-}*/
-#containerEvents ul{
+.containerEvents ul li.leftImage
+{
+    margin-top: 118px;
+    margin-left: 10px;
+}
+.containerEvents ul li.rightImage
+{
+    margin-top: 118px;
+}
+.innerCarousel
+{
+     margin-left: 10px;
+}
+.containerEvents ul{
     list-style:none;
 }
 
@@ -567,12 +576,15 @@ input{
 }
 .eventsHeading h3
 {
-   border-radius: 4px;
+    background-image: url("../images/upHeading.png");
+    background-position: right;
+     background-repeat: no-repeat;
+    border-radius: 4px;
     color: #393939;
-    font-family: arial,Helvetica_Light-Normal_Regular,sans-serif;
-    font-size: 16px;
-    padding: 13px 0 10px 26px;
-    float: left;
+    font-family: arial,HelveticaNeue,sans-serif;
+    font-size: 17px;
+    line-height: 43px;
+    padding-left: 26px;
 }
 .eventsHeading img
 {
@@ -580,11 +592,17 @@ input{
     float:right;
     opacity:1;   
 }
-#containerEvents ul li{
-    float:left;
-    margin-left:10px;
-}
 
+.containerEvents ul li{
+    float:left;
+    margin-left: 15px;
+   
+}
+.containerEvents ul li.innerCarousel
+{
+    width: 882px;
+    margin-left: 15px;
+}
 #clicks{
     margin-top:145px;
     margin-left: 5px;
@@ -595,13 +613,12 @@ input{
 }
 
 .carousel{
-    width:205px;
+    width:208px;
     height:280px;
     float:left;
     border:1px solid #cccccc;
     border-radius:4px;
-    margin-left:3px;
-    margin-right:3px;
+    margin-right:15px;
     background:#ffffff;
 }
 .carousel img{
@@ -628,7 +645,11 @@ input{
     padding-left:14px;
     padding-right: 10px;
 }
+.carousel:last-child
+{
+    margin-right: 0;
 
+}
 .maplink a{
     color:#0078ac;
     text-decoration:none;
