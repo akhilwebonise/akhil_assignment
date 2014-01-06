@@ -56,20 +56,24 @@ body{
     color:#6e7275;
     font-style:italic;
     border-style:none;
-    background-image:url(../images/searchIcon.png);
+    /*background-image:url(../images/searchIcon.png);*/
+    background:#212b33;
     background-position:right;
     background-repeat:no-repeat;
 }
-#SearchButton{
-    background: none repeat scroll 0 0 #212A32;
-    border-radius: 4px;
-    color: #6E7275;
+#SearchButton
+{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
     float: left;
-    height: 29px;
-    margin-bottom: 8px;
-    margin-top: 5px;
-    width: 27px;
+    height: 24px;
+    padding-top: 10px;
+    width: 29px;
 
+}
+#SearchButton:hover
+{
+    opacity:0.3; 
 }
 .topBar ul{
     list-style:none;
@@ -541,7 +545,7 @@ input{
     clear:both;
 }
 
-.containerEvents{
+#containerEvents{
     float:left;
     width:960px;
     height:390px;
@@ -550,20 +554,11 @@ input{
     background:#e5f1f9;
     background-image:url(images/wrapperbg.png) no-repeat 0 0;
 }
-.containerEvents ul li.leftImage
-{
-    margin-top: 118px;
-    margin-left: 10px;
-}
-.containerEvents ul li.rightImage
-{
-    margin-top: 118px;
-}
-.innerCarousel
-{
-     margin-left: 10px;
-}
-.containerEvents ul{
+
+/*#containerEvents h3{
+    
+}*/
+#containerEvents ul{
     list-style:none;
 }
 
@@ -576,15 +571,12 @@ input{
 }
 .eventsHeading h3
 {
-    background-image: url("../images/upHeading.png");
-    background-position: right;
-     background-repeat: no-repeat;
-    border-radius: 4px;
+   border-radius: 4px;
     color: #393939;
-    font-family: arial,HelveticaNeue,sans-serif;
-    font-size: 17px;
-    line-height: 43px;
-    padding-left: 26px;
+    font-family: arial,Helvetica_Light-Normal_Regular,sans-serif;
+    font-size: 16px;
+    padding: 13px 0 10px 26px;
+    float: left;
 }
 .eventsHeading img
 {
@@ -592,17 +584,11 @@ input{
     float:right;
     opacity:1;   
 }
-
-.containerEvents ul li{
+#containerEvents ul li{
     float:left;
-    margin-left: 15px;
-   
+    margin-left:10px;
 }
-.containerEvents ul li.innerCarousel
-{
-    width: 882px;
-    margin-left: 15px;
-}
+
 #clicks{
     margin-top:145px;
     margin-left: 5px;
@@ -613,12 +599,13 @@ input{
 }
 
 .carousel{
-    width:208px;
+    width:205px;
     height:280px;
     float:left;
     border:1px solid #cccccc;
     border-radius:4px;
-    margin-right:15px;
+    margin-left:3px;
+    margin-right:3px;
     background:#ffffff;
 }
 .carousel img{
@@ -645,11 +632,7 @@ input{
     padding-left:14px;
     padding-right: 10px;
 }
-.carousel:last-child
-{
-    margin-right: 0;
 
-}
 .maplink a{
     color:#0078ac;
     text-decoration:none;
