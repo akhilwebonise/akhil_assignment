@@ -86,17 +86,259 @@ table {
 .navBar ul li 
 {
 	display: inline-block;
-    padding-right: 40px;
-    margin-top: 23px;
+    height: 61px;
+}
+.navBar ul li a
+{
+	color: #666666;
+    display: block;
+    font-family: roboto bold;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 61px;
+    padding: 0 20px;
+    text-decoration: none;
+
+}
+.navBar ul li a:hover
+{
+	text-decoration: underline;
 }
 .signinButton
 {
-	border-radius: 7px;
+	background-image: url("../images/signupbg.png");
+	background-repeat: repeat;
+    border: 2px solid #0E0E0E;
+    border-radius: 7px;
+    color: #FFFFFF;
     float: left;
-    height: 34px;
     margin-top: 13px;
-    width: 85px;
-    border: 2px solid #0e0e0e;
-    background: #2d2d2d;
-    color: #fffff;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: roboto bold;
+}
+.container
+{
+	width: 940px;
+	margin: 0 auto;
+}
+.slider img
+{
+	margin-bottom: 12px;
+    margin-left: 445px;
+    margin-top: 255px;
+}
+.signMethod
+{
+	 display: block;
+    height: 49px;
+    margin-bottom: 35px;
+    margin-left: 211px;
+    
+}
+.signupAs
+{
+	background-image: url("../images/line.png");
+    background-repeat: repeat-x;
+    border-radius: 18px;
+    display: block;
+    font-family: roboto bold;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    margin-left: 410px;
+    padding: 1px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: #FFFFFF;
+    color: #3f3f3f;
+}
+.buyer
+{
+	 background-image: url("../images/buyer.png");
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 15px 30px;
+    text-align: center;
+   	font-family: roboto bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-shadow:2px 2px #af351f;
+	margin-right: 16px;
+	border: 1px solid #992211;
+	border-radius: 7px;
+}
+.middel
+{
+	display: block;
+    float: left;
+    margin-right: 16px;
+    margin-top: 18px;
+}
+.provider
+{
+	background-image: url("../images/buyer.png");
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 15px 30px;
+    text-align: center;
+   	font-family: roboto bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-shadow:2px 2px #af351f;
+	border: 1px solid #992211;
+	border-radius: 7px;
+}
+.headingFirst
+{
+	color: #666666;
+    font-family: RobotoMedium;
+    font-size: 24px;
+    padding-left: 336px;
+}
+.headingSecond
+{
+	font-size: 30px;
+	font-family: RobotoMedium;
+	margin-left: 255px;
+	color: #444444;
+}
+.heading
+{
+	margin-bottom: 29px;
+}
+.highlights
+{
+	height: 360px;
+	background-image: url("../images/highlightbg.png");
+	background-repeat: repeat-x;
+}
+.highlight1
+{
+	width: 220px;
+	height: 360px;
+	margin-right: 12px;
+	float: left;
+}
+.highlight1 img
+{
+	margin-top: 6px;
+	margin-left: 35px;
+	margin-bottom: 28px;
+}
+.highlight2
+{
+	width: 220px;
+	height: 360px;
+	margin-right: 12px;
+	float: left;
+}
+.highlight2 img
+{
+	margin-top: 6px;
+	margin-left: 35px;
+	margin-bottom: 29px;
+}
+.highlight3
+{
+	width: 220px;
+	height: 360px;
+	margin-right: 12px;
+	float: left;
+}
+.highlight3 img
+{
+	margin-top: 6px;
+	margin-left: 35px;
+	margin-bottom: 31px;
+}
+.highlight4
+{
+	width: 220px;
+	height: 360px;
+	float: left;
+}
+.highlight4 img
+{
+	margin-top: 6px;
+	margin-left: 35px;
+	margin-bottom: 29px;
+}
+.titleH1
+{
+	 color: #FFFFFF;
+    font-family: RobotoMedium;
+    font-size: 16px;
+    padding-bottom: 15px;
+     padding-left: 77px;
+     
+}
+.titleH2
+{
+	color: #FFFFFF;
+    font-family: RobotoMedium;
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    
+}
+.titleH3
+{
+	color: #FFFFFF;
+    font-family: RobotoMedium;
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 68px;
+    
+}
+.highlight1 hr
+{
+	width: 200;
+	text-shadow :1px #5e5e5e;
+	color: #393939;
+}
+.highlight2 hr
+{
+	width: 200;
+	text-shadow :1px #5e5e5e;
+	color: #393939;
+}
+.highlight3 hr
+{
+	width: 200;
+	text-shadow :1px #5e5e5e;
+	color: #393939;
+}
+.highlight4 hr
+{
+	width: 200;
+	text-shadow :1px #5e5e5e;
+	color: #393939;
+}
+.description
+{
+	font-size: 12px;
+    padding: 9px;
+    font-family: Helvetica bold;
+    color: #bbbbbb;
+}
+.more
+{
+	margin-left: 9px;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Helvetica;
+	color: #FFFFFF;
+}
+.more:hover
+{
+	text-decoration: underline;
 }
