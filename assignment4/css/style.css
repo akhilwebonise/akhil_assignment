@@ -69,15 +69,23 @@ table {
 .logo
 {
 	float: left;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	height: 38px;
+    width: 140px;
+    text-indent: none;
+    margin-top: 11px;
+    margin-left: 3px;
+    display: block;
 }
-.logo img 
+/*.logo img 
 {
 	height: 38px;
     width: 140px;
     text-indent: none;
     margin-top: 11px;
     margin-left: 3px;
-}
+}*/
 .navBar
 {
 	 float: left;
@@ -96,13 +104,15 @@ table {
     font-size: 14px;
     font-weight: bold;
     line-height: 61px;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
+    margin-right: 42px;
     text-decoration: none;
 
 }
 .navBar ul li a:hover
 {
 	text-decoration: underline;
+	opacity: 0.7;
 }
 .signinButton
 {
@@ -113,11 +123,15 @@ table {
     color: #FFFFFF;
     float: left;
     margin-top: 13px;
-    padding: 10px 16px;
+    padding: 6px 19px;
     text-decoration: none;
     text-align: center;
     font-size: 14px;
     font-family: roboto bold;
+}
+.signinButton:hover
+{
+	opacity: 0.7;
 }
 .container
 {
@@ -174,6 +188,10 @@ table {
 	border: 1px solid #992211;
 	border-radius: 7px;
 }
+.buyer:hover
+{
+	opacity: 0.8;
+}
 .middel
 {
 	display: block;
@@ -196,6 +214,10 @@ table {
 	text-shadow:2px 2px #af351f;
 	border: 1px solid #992211;
 	border-radius: 7px;
+}
+.provider:hover
+{
+	opacity: 0.8;
 }
 .headingFirst
 {
@@ -220,6 +242,10 @@ table {
 	height: 360px;
 	background-image: url("../images/highlightbg.png");
 	background-repeat: repeat-x;
+}
+.highlights ul li img:hover
+{
+opacity: 0.3;
 }
 .highlight1
 {
