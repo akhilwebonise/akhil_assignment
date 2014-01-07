@@ -156,8 +156,7 @@ table {
     height: 35px;
     line-height: 35px;
     margin-bottom: 30px;
-    margin-left: 410px;
-    padding: 1px 0;
+    margin-left: 260px;
     text-align: center;
     text-decoration: none;
     width: 120px;
@@ -235,7 +234,7 @@ table {
 	height: 360px;
 	background-image: url("../images/highlightbg.png");
 	background-repeat: repeat-x;
-}
+	}
 .highlights ul li img:hover
 {
 opacity: 0.3;
@@ -363,4 +362,77 @@ opacity: 0.3;
 .more:hover
 {
 	text-decoration: underline;
+}
+.mapSection
+{
+	background-color: #FFFFFF;
+	padding-top: 36px;
+}
+.worldMap
+{
+	float: left;
+	width: 620px;
+	height: 450px;
+	margin-right: 20px;
+}
+.listProvider
+{
+	float: left;
+	height: 450px;
+	width: 295px;
+}
+.signAs
+{
+	background-image: url("../images/line.png");
+	 background-repeat: no-repeat;
+    margin-left: 149px;
+}
+.mapHeading
+{
+	margin-left: 7px;
+	font-size: 21px;
+	font-family: RobotoMedium;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #dd4422;
+
+}
+.map
+{
+	background-image: url("../images/worldMap.png");
+	background-repeat: no-repeat;
+	width: 620px;
+	height: 450px;
+	margin-right: 20px;
+	position: relative;
+}
+.lima
+{
+	position: absolute;
+	top: 275px;
+	left: 149px;
+}
+.geneva
+{
+	position: absolute;
+	top: 181px;
+	left: 283px;
+}
+.cario
+{
+	position: absolute;
+	top: 217px;
+	left: 334px;
+}
+.seoule
+{
+	position: absolute;
+	top: 179px;
+	left: 492px;	
+}
+.melboro
+{
+	position: absolute;
+	top: 323px;
+	left: 514px;
 }
