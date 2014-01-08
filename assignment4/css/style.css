@@ -55,7 +55,7 @@ table {
 {
 	height: 60px;
 	background-image: url("../images/headerbg.png");
-	box-shadow: 1px #fffff;
+	box-shadow: 0px 3px 11px #d9d9d9;
 }
 .wrapper
 {
@@ -145,6 +145,12 @@ table {
     margin-left: 211px;
     
 }
+#signMethod
+{
+	display: block;
+    margin-bottom: 35px;
+    margin-left: 211px;
+}
 .signupAs
 {
 	background-image: url("../images/line.png");
@@ -161,6 +167,24 @@ table {
     text-decoration: none;
     width: 120px;
     background: #FFFFFF;
+    color: #3f3f3f;
+}
+#signupAs
+{
+	background-image: url("../images/line.png");
+    background-repeat: repeat-x;
+    border-radius: 18px;
+    display: block;
+    font-family: roboto bold;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    margin-left: 260px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: #f7f7f7;
     color: #3f3f3f;
 }
 .buyer
@@ -180,11 +204,40 @@ table {
 	border: 1px solid #992211;
 	border-radius: 7px;
 }
+#buyer
+{
+	 background-image: url("../images/buyer.png");
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 15px 30px;
+    text-align: center;
+   	font-family: roboto bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-shadow:2px 2px #af351f;
+	margin-right: 16px;
+	border: 1px solid #992211;
+	border-radius: 7px;
+	 margin-bottom: 53px;
+}
 .buyer:hover
 {
 	opacity: 0.8;
 }
+#buyer:hover
+{
+	opacity: 0.8;
+}
 .middel
+{
+	display: block;
+    float: left;
+    margin-right: 16px;
+    margin-top: 18px;
+}
+#middel
 {
 	display: block;
     float: left;
@@ -206,8 +259,29 @@ table {
 	text-shadow:2px 2px #af351f;
 	border: 1px solid #992211;
 	border-radius: 7px;
+	 margin-bottom: 53px;
+}
+#provider
+{
+	background-image: url("../images/buyer.png");
+    background-repeat: repeat-x;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 15px 30px;
+    text-align: center;
+   	font-family: roboto bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-shadow:2px 2px #af351f;
+	border: 1px solid #992211;
+	border-radius: 7px;
 }
 .provider:hover
+{
+	opacity: 0.8;
+}
+#provider:hover
 {
 	opacity: 0.8;
 }
