@@ -306,7 +306,7 @@ opacity: 0.3;
     font-family: RobotoMedium;
     font-size: 16px;
     padding-bottom: 15px;
-    padding-left: 9px;
+    padding-left: 6px;
     color: #FFFFFF;
 }
 .titleH3
@@ -380,6 +380,40 @@ opacity: 0.3;
 	float: left;
 	height: 450px;
 	width: 295px;
+}
+.listProvider ul li 
+{
+	display: inline-block;
+
+}
+.imageProvider
+{
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 15px;
+}
+.providerContent
+{
+	float: left;
+	font-size: 12px;
+	font-family: Roboto bold;
+	padding-top: 6px;
+}
+.details
+{
+	display: block;
+	margin-bottom: 9px;
+	color: #222222;
+	font-family: Roboto bold;
+	font-size: 13px;
+	font-weight: bold;
+}
+.lang
+{
+	font-size: 11px;
+	font-family: Roboto bold;
+	color: #888888;
+	font-weight: bold;
 }
 .signAs
 {
@@ -532,12 +566,23 @@ opacity: 0.3;
 	padding-bottom: 9px;
 
 }
+.footerNav ul li a
+{
+	color: #d9d9d9;
+	font-size: 12px;
+	font-family: Helvetica;
+	text-decoration: none;
+}
+.footerNav ul li a:hover
+{
+	opacity: 0.3;
+}
 .copyRight
 {
 	margin-left: 144px;
-	margin-bottom: 21px;
-	display: block;
-	color: #888888;
-
-
+margin-bottom: 21px;
+display: block;
+color: #888888;
+font-size: 12px;
+font-family: helvetica;
 }
