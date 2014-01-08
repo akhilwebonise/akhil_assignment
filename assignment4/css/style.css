@@ -384,7 +384,8 @@ opacity: 0.3;
 .signAs
 {
 	background-image: url("../images/line.png");
-	 background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position-y: center;
     margin-left: 149px;
 }
 .mapHeading
@@ -510,4 +511,33 @@ opacity: 0.3;
 	font-size: 12px;
 	font-family: Helvetica;
 	color: #888888;
+}
+.footer
+{
+	background-color: #353535;
+	height: 69px;
+}
+.footerNav
+{
+	margin-left: 281px;
+	padding-top: 19px;
+}
+.footerNav ul li 
+{
+	display: inline-block;
+	color: #d9d9d9;
+	font-size: 12px;
+	font-family: Helvetica;
+	padding-right: 7px;
+	padding-bottom: 9px;
+
+}
+.copyRight
+{
+	margin-left: 144px;
+	margin-bottom: 21px;
+	display: block;
+	color: #888888;
+
+
 }
