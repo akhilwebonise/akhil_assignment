@@ -83,7 +83,6 @@ table {
 	background-repeat: no-repeat;
 	height: 38px;
     width: 140px;
-    text-indent: none;
     margin-top: 12px;
     margin-left: 3px;
     display: block;
@@ -118,7 +117,7 @@ height: 15px;
 width: 18px;
 display: block;
 float: left;
-margin-top: 21px;
+margin-top: 22px;
 margin-right: 7px;
 }
 .navBar
@@ -128,7 +127,7 @@ margin-right: 7px;
 .navBar ul li 
 {
 	display: inline-block;
-    height: 61px;
+    height: 59px;
 }
 .navBar ul li a
 {
@@ -137,7 +136,7 @@ display: block;
 font-family: roboto bold;
 font-size: 14px;
 line-height: 57px;
-margin-right: 34px;
+margin-right: 33px;
 font-weight: bold;
 text-decoration: none;
 float: left;
@@ -172,11 +171,15 @@ float: left;
 	width: 940px;
 	margin: 0 auto;
 }
-.slider img
+.slider
+{
+	height: 250px;
+}
+.pagination img
 {
 	margin-bottom: 6px;
 margin-left: 451px;
-margin-top: 253px;
+margin-top: 2px;
 }
 .signMethod
 {
@@ -540,18 +543,20 @@ margin-bottom: 4px;
 .details
 {
 	display: block;
-	margin-bottom: 9px;
-	color: #222222;
-font-family: helvetica,sans-serif;
+margin-bottom: 9px;
+color: #222222;
+font-family: roboto bold;
 font-size: 12px;
 
 }
 .lang
 {
 	font-size: 10px;
-font-family: helvetica,sans-serif;
+font-family: roboto;
 color: #888888;
-font-weight: bold;
+
+line-height: 25px;
+
 }
 .signAs
 {
@@ -689,7 +694,7 @@ font-size: 15px;
 font-family: Roboto;
 font-weight: bold;
 padding-top: 27px;
-margin-bottom: 15px;
+
 float: left;
 width: 321px;
 }
@@ -702,9 +707,10 @@ width: 321px;
 .innerContent
 {
 	display: block;
-	font-size: 12px;
-	font-family: Helvetica;
-	color: #888888;
+font-size: 12px;
+font-family: Helvetica;
+color: #888888;
+line-height: 24px;
 }
 .footer
 {
@@ -729,9 +735,10 @@ padding-bottom: 9px;
 .footerNav ul li a
 {
 	color: #d9d9d9;
-	font-size: 12px;
-	font-family: Helvetica;
-	text-decoration: none;
+font-size: 12px;
+font-family: Helvetica;
+text-decoration: none;
+line-height: 13px;
 }
 .footerNav ul li a:hover
 {
@@ -742,11 +749,13 @@ padding-bottom: 9px;
 	margin-bottom: 21px;
 display: block;
 color: #888888;
-font-size: 12px;
+font-size: 13px;
 font-family: helvetica;
 text-align: center;
+line-height: 7px;
 }
 ul li.clear
 {
 	clear: both;
+
 }
