@@ -672,7 +672,7 @@ border-radius: 4px;
 float: left;
 margin-top: 19px;
 margin-left: 23px;
-margin-right: 16px;
+margin-right: 14px;
 
 }
 .imageWrapper img 
@@ -692,7 +692,7 @@ font-size: 15px;
 font-family: Roboto;
 font-weight: bold;
 padding-top: 27px;
-
+margin-bottom: 8px;
 float: left;
 width: 321px;
 }
@@ -708,7 +708,7 @@ width: 321px;
 font-size: 12px;
 font-family: Helvetica;
 color: #888888;
-line-height: 24px;
+line-height: 18px;
 }
 .footer
 {
