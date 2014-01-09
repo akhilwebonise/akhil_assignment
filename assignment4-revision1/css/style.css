@@ -547,6 +547,7 @@ margin-bottom: 9px;
 color: #222222;
 font-family: roboto bold;
 font-size: 12px;
+line-height: 8px;
 
 }
 .lang
@@ -554,8 +555,6 @@ font-size: 12px;
 	font-size: 10px;
 font-family: roboto;
 color: #888888;
-
-line-height: 25px;
 
 }
 .signAs
@@ -581,13 +580,13 @@ margin-bottom: 15px;
 margin-left: 2px;
 font-size: 21px;
 font-family: ROBOTO BOLD;
-
+padding-bottom: 4px;
 color: #444444;
 padding-left: 6px;
 }
 .map
 {
-	background-image: url("../images/map.png");
+	background-image: url("../images/worldMap.png");
 	background-repeat: no-repeat;
 	width: 620px;
 	height: 450px;
@@ -597,32 +596,31 @@ padding-left: 6px;
 .lima
 {
 	position: absolute;
-	top: 275px;
-	left: 149px;
+	top: 283px;
+left: 152px;
 }
 .geneva
-{
-	position: absolute;
-	top: 181px;
-	left: 283px;
+{position: absolute;
+top: 164px;
+left: 287px;
 }
 .cario
 {
 	position: absolute;
-	top: 217px;
-	left: 334px;
+top: 210px;
+left: 332px;
 }
 .seoule
 {
 	position: absolute;
-	top: 179px;
-	left: 492px;	
+top: 186px;
+left: 492px;	
 }
 .melboro
 {
 	position: absolute;
-	top: 323px;
-	left: 514px;
+top: 320px;
+left: 520px;
 }
 .team
 {
