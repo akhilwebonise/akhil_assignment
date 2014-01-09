@@ -2,7 +2,13 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@font-face
+{
+ font-family:"Roboto,RobotoMedium,robotobold";
+ src: url('../fonts/roboto-bold-webfont.woff');
+ src:url('../fonts/roboto-bold-webfont.eot');
+ src:url('..fonts/');
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -329,16 +335,18 @@ margin-bottom: 53px;
 .headingFirst
 {
 	color: #666666;
-    font-family: RobotoMedium;
-    font-size: 26px;
-    text-align: center;
+font-family: Roboto;
+font-size: 23px;
+text-align: center;
+line-height: 28px;
 }
 .headingSecond
 {
 	font-size: 29px;
-	font-family: Roboto bold;
-	text-align: center;
-	color: #444444;
+font-family: Roboto bold;
+text-align: center;
+color: #444444;
+line-height: 28px;
 }
 .heading
 {
@@ -657,9 +665,11 @@ margin-bottom: 33px;
 .imageWrapper
 {
 	border: 2px solid #FFFFFF;
-	border-radius: 4px;
-	float: left;
-	margin: 18px;
+border-radius: 4px;
+float: left;
+margin-top: 19px;
+margin-left: 23px;
+margin-right: 16px;
 
 }
 .imageWrapper img 
@@ -704,16 +714,16 @@ width: 321px;
 .footerNav
 {
 	margin-left: 281px;
-	padding-top: 19px;
+padding-top: 16px;
 }
 .footerNav ul li 
 {
 	display: inline-block;
-	color: #d9d9d9;
-	font-size: 12px;
-	font-family: Helvetica;
-	padding-right: 7px;
-	padding-bottom: 9px;
+color: #d9d9d9;
+font-size: 12px;
+font-family: Helvetica;
+padding-right: 2px;
+padding-bottom: 9px;
 
 }
 .footerNav ul li a
@@ -729,12 +739,12 @@ width: 321px;
 }
 .copyRight
 {
-	margin-left: 144px;
 	margin-bottom: 21px;
-	display: block;
-	color: #888888;
-	font-size: 12px;
-	font-family: helvetica;
+display: block;
+color: #888888;
+font-size: 12px;
+font-family: helvetica;
+text-align: center;
 }
 ul li.clear
 {
