@@ -96,7 +96,7 @@ table {
 	display: block;
 	float: left;
 	margin-top: 20px;
-	margin-right: 4px;
+	margin-right: 3px;
 }
 .howWork
 {
@@ -107,18 +107,18 @@ table {
 	display: block;
 	float: left;
 	margin-top: 20px;
-	margin-right: 9px;
+	margin-right: 13px
 }
 .plans
 {
-	background-image: url("../images/plans.png");
+background-image: url("../images/plans.png");
 background-repeat: no-repeat;
 height: 15px;
 width: 18px;
 display: block;
 float: left;
 margin-top: 22px;
-margin-right: 7px;
+margin-right: 9px;
 }
 .navBar
 {
@@ -131,12 +131,12 @@ margin-right: 7px;
 }
 .navBar ul li a
 {
-	color: #666666;
+color: #666666;
 display: block;
 font-family: roboto bold;
 font-size: 14px;
 line-height: 57px;
-margin-right: 33px;
+margin-right: 38px;
 font-weight: bold;
 text-decoration: none;
 float: left;
@@ -179,7 +179,7 @@ float: left;
 {
 	margin-bottom: 6px;
 margin-left: 451px;
-margin-top: 2px;
+margin-top: 8px;
 }
 .signMethod
 {
@@ -204,7 +204,7 @@ margin-left: 193px;
     font-family: roboto bold;
     font-size: 14px;
     height: 35px;
-    line-height: 35px;
+    line-height: 32px;
     margin-bottom: 30px;
     margin-left: 263px;
     text-align: center;
@@ -341,7 +341,7 @@ margin-bottom: 53px;
 font-family: Roboto;
 font-size: 23px;
 text-align: center;
-line-height: 28px;
+line-height: 25px;
 }
 .headingSecond
 {
@@ -349,7 +349,7 @@ line-height: 28px;
 font-family: Roboto bold;
 text-align: center;
 color: #444444;
-line-height: 28px;
+line-height: 32px
 }
 .heading
 {
