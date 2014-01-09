@@ -82,7 +82,39 @@ table {
     margin-left: 3px;
     display: block;
 }
-
+.homeIcon
+{
+	background-image: url("../images/homeIcon.png");
+	background-repeat: no-repeat;
+	height: 15px;
+	width:18px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-right: 4px;
+}
+.howWork
+{
+	background-image: url("../images/how.png");
+	background-repeat: no-repeat;
+	height: 15px;
+	width:18px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-right: 9px;
+}
+.plans
+{
+	background-image: url("../images/plans.png");
+background-repeat: no-repeat;
+height: 15px;
+width: 18px;
+display: block;
+float: left;
+margin-top: 21px;
+margin-right: 7px;
+}
 .navBar
 {
 	float: left;
@@ -95,13 +127,14 @@ table {
 .navBar ul li a
 {
 	color: #666666;
-    display: block;
-    font-family: roboto bold;
-    font-size: 14px;
-    line-height: 61px;
-    /*padding: 0 20px;*/
-    margin-right: 42px;
-    text-decoration: none;
+display: block;
+font-family: roboto bold;
+font-size: 14px;
+line-height: 57px;
+margin-right: 34px;
+font-weight: bold;
+text-decoration: none;
+float: left;
 
 }
 .navBar ul li a:hover
@@ -113,16 +146,16 @@ table {
 {
 	background-image: url("../images/signupbg.png");
 	background-repeat: repeat;
-    border: 2px solid #0E0E0E;
-    border-radius: 7px;
-    color: #FFFFFF;
-    float: left;
-    margin-top: 13px;
-    padding: 6px 19px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 14px;
-    font-family: roboto bold;
+	border: 2px solid #0E0E0E;
+	border-radius: 7px;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 14px;
+	padding: 6px 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-family: roboto bold;
 }
 .signinButton:hover
 {
@@ -135,9 +168,9 @@ table {
 }
 .slider img
 {
-	margin-bottom: 12px;
-    margin-left: 445px;
-    margin-top: 255px;
+	margin-bottom: 6px;
+margin-left: 451px;
+margin-top: 253px;
 }
 .signMethod
 {
@@ -164,7 +197,7 @@ table {
     height: 35px;
     line-height: 35px;
     margin-bottom: 30px;
-    margin-left: 260px;
+    margin-left: 263px;
     text-align: center;
     text-decoration: none;
     width: 120px;
@@ -292,13 +325,13 @@ table {
 {
 	color: #666666;
     font-family: RobotoMedium;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
 }
 .headingSecond
 {
-	font-size: 30px;
-	font-family: RobotoMedium;
+	font-size: 29px;
+	font-family: Roboto bold;
 	text-align: center;
 	color: #444444;
 }
