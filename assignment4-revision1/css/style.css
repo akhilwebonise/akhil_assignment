@@ -296,18 +296,18 @@ line-height: 19px;
 .provider
 {
 	background-image: url("../images/buyer.png");
-background-repeat: repeat-x;
-color: #FFFFFF;
-display: block;
-float: left;
-padding: 16px 33px;
-text-align: center;
-font-family: roboto bold;
-font-size: 16px;
-text-decoration: none;
-text-shadow: 2px 4px #af351f;
-border: 1px solid #992211;
-border-radius: 7px;
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	padding: 16px 33px;
+	text-align: center;
+	font-family: roboto bold;
+	font-size: 16px;
+	text-decoration: none;
+	/*text-shadow: 2px 4px #af351f;*/
+	border: 1px solid #992211;
+	border-radius: 7px;
 
 }
 #provider
@@ -535,10 +535,11 @@ margin-bottom: 4px;
 .providerContent
 {
 	float: left;
-	font-size: 12px;
-	font-family: Roboto bold;
-	padding-top: 6px;
-	width: 127px;
+font-size: 10px;
+font-family: helvetica;
+width: 127px;
+padding-top: 4px;
+
 }
 .details
 {
@@ -553,7 +554,7 @@ line-height: 8px;
 .lang
 {
 	font-size: 10px;
-font-family: roboto;
+font-family: helvetica;
 color: #888888;
 
 }
