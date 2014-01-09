@@ -308,7 +308,7 @@ text-decoration: none;
 text-shadow: 2px 4px #af351f;
 border: 1px solid #992211;
 border-radius: 7px;
-margin-bottom: 53px;
+
 }
 #provider
 {
@@ -374,7 +374,7 @@ float: left;
 }
 .highlight1 img
 {
-	margin-top: 16px;
+margin-top: 33px;
 margin-left: 35px;
 margin-bottom: 20px;
 }
@@ -387,7 +387,7 @@ float: left;
 }
 .highlight2 img
 {
-	margin-top: 15px;
+margin-top: 33px;
 margin-left: 35px;
 margin-bottom: 23px;
 }
@@ -400,7 +400,7 @@ float: left;
 }
 .highlight3 img
 {
-	margin-top: 16px;
+margin-top: 33px;
 margin-left: 37px;
 margin-bottom: 23px
 }
@@ -413,7 +413,7 @@ float: left;
 }
 .highlight4 img
 {
-margin-top: 15px;
+margin-top: 33px;
 margin-left: 34px;
 margin-bottom: 23px
 }
@@ -564,7 +564,7 @@ line-height: 25px;
 background-repeat: no-repeat;
 background-position-y: center;
 margin-left: 149px;
-margin-top: 13px;
+
 }
 .mapHeading
 {
