@@ -277,12 +277,12 @@ border-radius: 7px;
 .middel
 {
 	display: block;
-	float: left;
-	margin-right: 15px;
-	margin-top: 16px;
-	font: roboto bold;
-	font-family: robotobold;
-	font-size: 21px;
+float: left;
+margin-right: 15px;
+margin-top: 16px;
+font-family: robotobold;
+font-size: 21px;
+line-height: 19px;
 }
 #middel
 {display: block;
@@ -300,7 +300,7 @@ background-repeat: repeat-x;
 color: #FFFFFF;
 display: block;
 float: left;
-padding: 15px 29px;
+padding: 16px 33px;
 text-align: center;
 font-family: roboto bold;
 font-size: 16px;
@@ -317,7 +317,7 @@ background-repeat: repeat-x;
 color: #FFFFFF;
 display: block;
 float: left;
-padding: 15px 29px;
+padding: 15px 32px;
 text-align: center;
 font-family: roboto bold;
 font-size: 16px;
@@ -353,7 +353,7 @@ line-height: 32px
 }
 .heading
 {
-	margin-bottom: 29px;
+	margin-bottom: 26px;
 }
 .highlights
 {
