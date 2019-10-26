@@ -8,16 +8,7 @@ body{
     margin:0;
     padding:0;
     font-family:arial, serif,sans-serif;
-    background:url(../images/bgp.png) repeat-x;
-}
 
-*{
-    padding:0;
-    margin:0;
-}
-.clear{
-    clear:both;
-}
 .header
 {
     margin-bottom:20px;
